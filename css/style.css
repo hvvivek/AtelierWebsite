@@ -1,0 +1,118 @@
+.btn-primary-pink {
+    font-family: AvantGarde;
+    text-transform: none;
+    font-weight: bolder;
+    color: #000;
+    border-radius: 3px;
+    font-size: 20px;
+    /* margin-top: 35vh; */
+    background-color: #FF95B2   ;
+    border-color: #FF95B2   ; }
+    .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+      color: #000;
+      background-color: #FF95B2    !important; }
+    .btn-primary:active, .btn-primary:focus {
+      box-shadow: 0 0 0 0.2rem #FF95B2    !important; }
+
+.btn-primary-blue
+{
+    font-family: AvantGarde;
+    text-transform: none;
+    font-weight: bolder;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 20px;
+    /* margin-top: 35vh; */
+    background-color: #33278D  ;
+    border-color: #33278D  ; }
+    .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+      color: #000;
+      background-color: #fff   !important; }
+    .btn-primary:active, .btn-primary:focus {
+      box-shadow: 0 0 0 0.2rem #33278D   !important; }
+
+@font-face {
+    font-family: AvantGarde;
+    src: url('../fonts/AvantGarde/ITCAvantGardePro-Demi.otf');
+}
+
+@font-face {
+    font-family: Sentinel;
+    src: url('../fonts/AvantGarde/sentinel-book.ttf');
+}
+
+
+header.masthead .text-faded
+{
+    font-size: 30px;
+    margin-top: 5vh;
+}
+
+.text-faded
+{
+    font-family: Sentinel;
+}
+
+.text-faded.black
+{
+    color: #000;
+}
+
+header.pink-masthead {
+    height: 100vh;
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-image: url("../img/background_pink_mob.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+header.pink-masthead hr {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+header.pink-masthead h1 {
+    font-size: 2rem; }
+header.pink-masthead p {
+    font-weight: 300; }
+@media (min-width: 768px) {
+    
+    header.pink-masthead p {
+    font-size: 1.15rem; } 
+    header.pink-masthead {
+    background-image: url("../img/background_pink_mid.jpg");
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0; }
+    header.pink-masthead h1 {
+        font-size: 3rem; } }
+@media (min-width: 1200px) {
+    header.pink-masthead {
+    background-image: url("../img/background_pink.jpg");
+    }
+    header.pink-masthead h1 {
+    font-size: 4rem; } }
+
+
+    
+    @media (max-width: 768px) {
+        .img-fluid
+        {
+            max-width: 50%;
+        }
+        
+        header.masthead .text-faded
+        {
+            font-size: 1.4em;
+        }
+
+        .btn-primary
+        {
+            font-size: 1em;
+        }
+    }
+    @media (min-width: 1200px) {
+        
+    }
+
