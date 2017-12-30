@@ -120,3 +120,16 @@ header.pink-masthead p {
         
     }
 
+    p.pink::selection {
+        background: #FF95B2;
+      }
+      p.pink::-moz-selection {
+        background: #FF95B2;
+      }
+      p.blue::selection {
+        background: #33278D;
+      }
+      p.blue::-moz-selection {
+        background: #33278D;
+      }
+      
